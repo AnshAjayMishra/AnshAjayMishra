@@ -1,7 +1,7 @@
 ![MasterHead](https://visme.co/blog/wp-content/uploads/2020/03/animation-software-header-wide.gif)
 
 <h1 align="center">Hi 👋, I'm AnshAjayMishra</h1>
-<h3 align="center">I am a first year engineering student also a frontend devloper</h3>
+<h3 align="center">I am a first year engineering student also a frontend developer</h3>
 <img align="right" alt="Coding" width="max" src="https://raw.githubusercontent.com/PolarBearGG/PolarBearGG/master/web-developer.gif">
 
 
