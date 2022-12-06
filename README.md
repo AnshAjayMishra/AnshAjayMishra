@@ -9,7 +9,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=anshajaymishra" alt="anshajaymishra" /></a> </p>
 
-<p align="left"> <a href="https://twitter.com/_iam_nash" target="blank"><img src="https://img.shields.io/twitter/follow/_iam_nash?logo=twitter&style=for-the-badge" alt="_iam_nash" /></a> </p>
+<p align="left"> <a href="https://twitter.com/" target=AnshAjayMishra"blank"><img src="https://img.shields.io/twitter/follow/_iam_nash?logo=twitter&style=for-the-badge" alt="_iam_nash" /></a> </p>
 
 - 🪄 I’m currently in the **First Year Of Engineering**
 
