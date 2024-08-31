@@ -11,6 +11,7 @@
 
 <p align="left"> <a href="https://twitter.com/AnshAjayMishra" target="blank"><img src="https://img.shields.io/twitter/follow/_iam_nash?logo=twitter&style=for-the-badge" alt="_iam_nash" /></a> </p>
 
+  
 - 🪄 I’m currently in the **Second Year Of Engineering**
 
 - 📨 How to reach me **ajayanshmishra10@gmail.com**
@@ -38,7 +39,8 @@
 
 
 <h3 align="left">Support:</h3>
-<p><a href="https://www.buymeacoffee.com/AnshAjayMishra"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="AnshAjayMishra" /></a></p><br><br>
+<p><a href="https://www.buymeacoffee.com/AnshAjayMishra"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="AnshAjayMishra" /></a><a href="https://ko-fi.com/AnshAjayMishra"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="AnshAjayMishra" /></a></p><br><br>
+
 <hr>
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=anshajaymishra&show_icons=true&locale=en&layout=compact" alt="anshajaymishra" /></p>
