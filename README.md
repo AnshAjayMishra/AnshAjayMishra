@@ -43,3 +43,5 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=anshajaymishra&show_icons=true&locale=en&layout=compact" alt="anshajaymishra" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=anshajaymishra&show_icons=true&locale=en" alt="anshajaymishra" /></p>
+
+![snake gif](https://github.com/AnshAjayMishra/AnshAjayMishra/blob/output/github-contribution-grid-snake.svg)
