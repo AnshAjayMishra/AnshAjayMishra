@@ -44,4 +44,4 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=anshajaymishra&show_icons=true&locale=en" alt="anshajaymishra" /></p>
 
-![snake gif](https://github.com/AnshAjayMishra/AnshAjayMishra/blob/output/github-contribution-grid-snake.svg)
+
