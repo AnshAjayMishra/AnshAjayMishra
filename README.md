@@ -1,4 +1,4 @@
-![MasterHead](https://repository-images.githubusercontent.com/588181932/e36ec678-7984-4cdd-8e4c-a3932772ff8e)
+![MasterHead](https://media.licdn.com/dms/image/v2/D4D16AQFO9e6YTjD2yg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1706711749372?e=1732752000&v=beta&t=6_UDUI2EIsFkhlo2JyYg5V3WoOuhnhRHPOo9KfNNCNQ)
 
 <h1 align="center">Hi 👋, I'm AnshAjayMishra</h1>
 <h3 align="center">I'm a Computer Science & Engineering Student Also a Developer</h3>
@@ -12,7 +12,8 @@
 
 
 
-<p align="left"> <a href="https://twitter.com/AnshAjayMishra" target="blank"><img src="https://img.shields.io/twitter/follow/_iam_nash?logo=twitter&style=for-the-badge" alt="_iam_nash" /></a> </p>
+<p align="left"> <a href="https://x.com/AnshAjayMishra" target="blank"><img src="https://img.shields.io/badge/Follow @Ansh-d5d5d5?style=for-the-badge&logo=x&logoColor=0A0209" alt="AnshAjayMishra" /></a> </p>
+
 
   
 - 🪄 I’m currently in the **Second Year Of Engineering**
