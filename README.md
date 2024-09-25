@@ -1,8 +1,9 @@
-![MasterHead](https://visme.co/blog/wp-content/uploads/2020/03/animation-software-header-wide.gif)
+![MasterHead](https://repository-images.githubusercontent.com/588181932/e36ec678-7984-4cdd-8e4c-a3932772ff8e)
 
 <h1 align="center">Hi 👋, I'm AnshAjayMishra</h1>
-<h3 align="center">I'm a First Year Engineering Student Also a Frontend Developer</h3>
-<img align="right" alt="Coding" width="max" src="https://raw.githubusercontent.com/PolarBearGG/PolarBearGG/master/web-developer.gif">
+<h3 align="center">I'm a Computer Science & Engineering Student Also a Developer</h3>
+
+<img align="right" alt="Coding" width="max" src="https://64.media.tumblr.com/1e59432e5fe2d7942df39fdd0223d294/9ec5a9ae5ba9f7db-ae/s1280x1920/8f45c6df3adc9f1a74b58a275b587982b5de8abc.gif">
 
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=anshajaymishra&label=Profile%20views&color=0e75b6&style=flat" alt="anshajaymishra" /> </p>
