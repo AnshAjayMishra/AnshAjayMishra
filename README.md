@@ -50,9 +50,20 @@
 
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 <h3 align="left">Stats:</h3>
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=anshajaymishra&show_icons=true&locale=en&layout=compact" alt="anshajaymishra" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=anshajaymishra&show_icons=true&locale=en" alt="anshajaymishra" /></p>
+<div align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AnshAjayMishra&theme=nord_dark" width="32.5%">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AnshAjayMishra&theme=nord_dark" width="32.5%">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=AnshAjayMishra&theme=nord_dark" width="32.5%">
+
+<details>
+  <summary>More stats</summary>
+  
+ <img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AnshAjayMishra&theme=nord_dark">
+
+</details>
+  </div>
+
 
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
