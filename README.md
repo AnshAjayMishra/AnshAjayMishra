@@ -30,7 +30,7 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://twitter.com/_iam_nash" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="_iam_nash" height="30" width="40" /></a>
+<a href="https://x.com/AnshAjayMishra" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="_iam_nash" height="30" width="40" /></a>
 <a href="https://www.linkedin.com/in/ansh-ajay-mishra-b868251b8/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="anshajaymishra" height="30" width="40" /></a>
 <a href="https://fb.com/ansh1503" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="ansh1503" height="30" width="40" /></a>
 <a href="https://instagram.com/_iam_nash" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="_iam_nash" height="30" width="40" /></a>
