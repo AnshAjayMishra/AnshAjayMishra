@@ -1,4 +1,4 @@
-![MasterHead](https://media.licdn.com/dms/image/v2/D4D16AQFO9e6YTjD2yg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1706711749372?e=1732752000&v=beta&t=6_UDUI2EIsFkhlo2JyYg5V3WoOuhnhRHPOo9KfNNCNQ)
+![MasterHead](https://media.licdn.com/dms/image/v2/D4D16AQFO9e6YTjD2yg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1706711749372?e=1739404800&v=beta&t=uBTG3_Nmeyu3qgNPI4vJVOgzCDWxOaBLjbjTYC9wXgE)
 
 <h1 align="center">Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px">, I'm AnshAjayMishra</h1>
 <h3 align="center">I'm a Computer Science & Engineering Student Also a Developer</h3>
