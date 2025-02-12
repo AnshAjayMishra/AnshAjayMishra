@@ -86,14 +86,14 @@
 <h3 align="left">Stats:</h3>
 
 <div align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AnshAjayMishra&theme=nord_dark" width="32.5%">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AnshAjayMishra&theme=nord_dark" width="32.5%">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=AnshAjayMishra&theme=nord_dark" width="32.5%">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AnshAjayMishra&theme=midnight_purple" width="32.5%">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AnshAjayMishra&theme=midnight_purple" width="32.5%">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=AnshAjayMishra&theme=midnight_purple" width="32.5%">
 
 <details>
   <summary>More stats</summary>
   
- <img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AnshAjayMishra&theme=nord_dark">
+ <img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AnshAjayMishra&theme=midnight_purple">
 
 </details>
   </div>
