@@ -1,9 +1,9 @@
-![MasterHead](https://media.licdn.com/dms/image/v2/D4D16AQFO9e6YTjD2yg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1706711749372?e=1744848000&v=beta&t=1jSw8vDq1W_w0DsXJQs6_id1Co3TWIh4mWwmeQ5LOsQ)
+![MasterHead](https://github.com/AnshAjayMishra/AnshAjayMishra/blob/main/public/anshbanner.png)
 
 <h1 align="center">Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px">, I'm AnshAjayMishra</h1>
 <h3 align="center">I'm a Computer Science & Engineering Student Also a Developer</h3>
 
-<img align="center" alt="Coding" width="max" src="https://64.media.tumblr.com/1e59432e5fe2d7942df39fdd0223d294/9ec5a9ae5ba9f7db-ae/s1280x1920/8f45c6df3adc9f1a74b58a275b587982b5de8abc.gif">
+<img align="center" alt="Coding" width="max" src="https://github.com/AnshAjayMishra/AnshAjayMishra/blob/main/public/github.gif">
 
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=anshajaymishra&label=Profile%20views&color=ff69b4&style=flat" alt="anshajaymishra" /> </p>
