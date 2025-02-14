@@ -1,7 +1,10 @@
 ![MasterHead](https://github.com/AnshAjayMishra/AnshAjayMishra/blob/main/public/anshbanner.png)
 
 <h1 align="center">Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px">, I'm AnshAjayMishra</h1>
-<h3 align="center">I'm a Computer Science & Engineering Student Also a Developer</h3>
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=9400D3&center=true&vCenter=true&width=435&lines=Computer+Engineer;Full-Stack+Developer;Photographer+%26+Editor;Traveler+%26+Explorer;" alt="Typing SVG" />
+</div>
+
 
 <img align="center" alt="Coding" width="max" src="https://github.com/AnshAjayMishra/AnshAjayMishra/blob/main/public/github.gif">
 
