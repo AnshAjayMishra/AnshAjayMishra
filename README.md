@@ -21,7 +21,7 @@
 
 
   
-- 🪄 I’m currently in the **Third Year Of Engineering**
+- 🪄 I’m currently in the **Pre Final Year Of Engineering**
 
 - 📨 How to reach me **[𝙝𝙚𝙧𝙚](mailto:ajayanshmishra10@gmail.com)**
 
