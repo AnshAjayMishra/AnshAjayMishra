@@ -342,10 +342,24 @@
 
 </details>
   </div>
-
+  
 
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
 <h3 align="left">My Contribution:</h3>
 
 ![Snake animation](https://raw.githubusercontent.com/AnshAjayMishra/AnshAjayMishra/output/github-contribution-grid-snake-dark.svg)
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
+
+<h2 align="center">Spotify</h2>
+  <table>
+    <tr>
+      <td>
+        <img src="https://spotify-recently-played-readme.vercel.app/api?user=uh9483i0aqgaqaxspc8yih3g3&count=5">
+      </td>
+      <td>
+<img src="https://spotify-github-profile.kittinanx.com/api/view.svg?uid=uh9483i0aqgaqaxspc8yih3g3&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false" alt="Spotify Now Playing" />
+</td>
+    </tr>
+  </table>
+  <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
