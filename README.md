@@ -328,7 +328,7 @@
 
 
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
-<h3 align="left">Stats:</h3>
+<h3 align="center">Stats:</h3>
 
 <div align="center">
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AnshAjayMishra&theme=midnight_purple" width="32.5%">
@@ -346,12 +346,12 @@
 
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
-<h3 align="left">My Contribution:</h3>
+<h3 align="center">My Contribution:</h3>
 
 ![Snake animation](https://raw.githubusercontent.com/AnshAjayMishra/AnshAjayMishra/output/github-contribution-grid-snake-dark.svg)
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
-<h2 align="center">Spotify</h2>
+<h3 align="center">Spotify:</h3>
   <table>
     <tr>
       <td>
