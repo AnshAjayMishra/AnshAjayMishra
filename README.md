@@ -214,13 +214,13 @@
           <a href="https://www.radix-ui.com/" style="color: white;">
             <img src="https://avatars.githubusercontent.com/u/166878038?s=200&v=4" width="50" height="50" alt="Magic Ui"/>
           </a>
-          <br>Radix UI
+          <br>Magic UI
         </td>
         <td align="center" style="border: none;">
           <a href="https://magic-ui.mcnutt.in/" style="color: white;">
             <img src="https://avatars.githubusercontent.com/u/75042455?s=200&v=4" width="50" height="50" alt="Radix UI"/>
           </a>
-          <br>Magic UI
+          <br>Radix UI
         </td>
         <td align="center" style="border: none;">
           <a href="https://aceternity.com/" style="color: white;">
