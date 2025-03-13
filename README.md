@@ -50,6 +50,8 @@
 <a href="https://www.codechef.com/users/iamnash" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="iamnash" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/anshajaymishra" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="anshajaymishra" height="30" width="40" /></a>
 <a href="https://discord.gg/428522595558883348" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="428522595558883348" height="30" width="40" /></a>
+<a href="https://anshlinks.verel.app" target="blank">...</a>
+	
 </p>
 
 
