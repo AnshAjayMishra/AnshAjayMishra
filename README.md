@@ -11,7 +11,16 @@
 <img align="center" alt="Coding" width="max" src="https://github.com/AnshAjayMishra/AnshAjayMishra/blob/main/public/github.gif">
 
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=anshajaymishra&label=Profile%20views&color=ff69b4&style=flat" alt="anshajaymishra" /> </p>
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=anshajaymishra&label=Profile%20views&color=ff69b4&style=flat" alt="anshajaymishra" />
+  <a href="https://app.netlify.com/sites/anshajaymishra/deploys">
+    <img src="https://api.netlify.com/api/v1/badges/a1a2b7be-3e9e-4279-9dbe-61dbbf09eafc/deploy-status" alt="Netlify Status"/>
+  </a>
+  <img src="https://deploy-badge.vercel.app/vercel/anshajaymishra" alt="Vercel Deploy"/>
+</p>
+
+
+
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=AnshAjayMishra&theme=tokyonight" alt="anshajaymishra" /></a> </p>
 
