@@ -37,7 +37,7 @@
 
 - 💻 Right now **I'm trying to explore more and more**
 
-- ⚡Fun Fact **#**
+- ⚡Fun Fact I break code to fix it.
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
