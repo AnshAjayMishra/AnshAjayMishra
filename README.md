@@ -17,7 +17,6 @@
 </p>
   
 
-
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=AnshAjayMishra&theme=tokyonight" alt="anshajaymishra" /></a> </p>
 
 <p align="left"> <a href="https://x.com/AnshAjayMishra" target="blank"><img src="https://img.shields.io/badge/Follow @Ansh-d5d5d5?style=for-the-badge&logo=x&logoColor=0A0209" alt="AnshAjayMishra" /></a> </p>
