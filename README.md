@@ -22,7 +22,7 @@
 <p align="left"> <a href="https://x.com/AnshAjayMishra" target="blank"><img src="https://img.shields.io/badge/Follow @Ansh-d5d5d5?style=for-the-badge&logo=x&logoColor=0A0209" alt="AnshAjayMishra" /></a> </p>
 
 
-  
+ 
 - 🪄 I’m currently in the **Pre Final Year Of Engineering**
 
 - 📨 How to reach me **[𝙝𝙚𝙧𝙚](mailto:ajayanshmishra10@gmail.com)**
