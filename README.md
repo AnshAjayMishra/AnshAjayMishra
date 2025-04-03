@@ -27,9 +27,9 @@
 
 - 📨 How to reach me **[𝙝𝙚𝙧𝙚](mailto:ajayanshmishra10@gmail.com)**
 
-- 🌱 I’m currently learning **Full Stack Web Devlopment**
-
 - 🌻 My Portfolio **[here](https://anshajaymishra.vercel.app)**
+
+- 🌱 I’m currently learning **Full Stack Web Devlopment**
 
 - 🎯Goals: **To learn more programming languages and focus on writing cleaner and more efficient code**
 
