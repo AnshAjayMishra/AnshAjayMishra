@@ -23,7 +23,6 @@
 <p align="left"> <a href="https://x.com/AnshAjayMishra" target="blank"><img src="https://img.shields.io/badge/Follow @Ansh-d5d5d5?style=for-the-badge&logo=x&logoColor=0A0209" alt="AnshAjayMishra" /></a> </p>
 
 
- 
 - 🪄 I’m currently in the **Pre Final Year Of Engineering**
 
 - 📨 How to reach me **[𝙝𝙚𝙧𝙚](mailto:ajayanshmishra10@gmail.com)**
@@ -370,3 +369,9 @@
     </tr>
   </table>
   <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
+
+<p align="center">
+  <span style="background-color: #e1e4e8; padding: 6px 12px; border-radius: 6px; font-weight: bold;">
+    🛠️ Updated on: April 19, 2025
+  </span>
+</p>
