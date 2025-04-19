@@ -1,0 +1,41 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # every day at midnight UTC
+  workflow_dispatch: # manual trigger too
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Update README
+        run: |
+          DATE=$(date +"%A, %-d %B %Y")
+          
+          # Add suffix like st, nd, rd, th
+          DAY=$(date +"%-d")
+          if [ "$DAY" -eq 1 ] || [ "$DAY" -eq 21 ] || [ "$DAY" -eq 31 ]; then
+            SUFFIX="st"
+          elif [ "$DAY" -eq 2 ] || [ "$DAY" -eq 22 ]; then
+            SUFFIX="nd"
+          elif [ "$DAY" -eq 3 ] || [ "$DAY" -eq 23 ]; then
+            SUFFIX="rd"
+          else
+            SUFFIX="th"
+          fi
+          
+          DATE=$(date +"%A, %-d${SUFFIX} %B %Y")
+          
+          sed -i "s|Last updated on .* using magic ✨|Last updated on ${DATE} using magic ✨|g" README.md
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m "Update README last updated date"
+          git push
