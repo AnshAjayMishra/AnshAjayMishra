@@ -12,6 +12,12 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      - name: Print current directory
+        run: pwd
+
+      - name: Check README before update
+        run: cat README.md
+
       - name: Update README
         run: |
           DATE=$(date +"%A, %-d %B %Y")
@@ -30,11 +36,13 @@ jobs:
           
           DATE=$(date +"%A, %-d${SUFFIX} %B %Y")
 
-          # Debug: Echo the DATE to confirm it's correct
           echo "Updating README with date: ${DATE}"
-          
+
           # Update the README file
           sed -i "s|Last updated on .* using magic ✨|Last updated on ${DATE} using magic ✨|g" README.md
+
+      - name: Check changes in README
+        run: git diff README.md
 
       - name: Commit and Push changes
         run: |
