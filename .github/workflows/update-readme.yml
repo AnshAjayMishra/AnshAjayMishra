@@ -29,7 +29,11 @@ jobs:
           fi
           
           DATE=$(date +"%A, %-d${SUFFIX} %B %Y")
+
+          # Debug: Echo the DATE to confirm it's correct
+          echo "Updating README with date: ${DATE}"
           
+          # Update the README file
           sed -i "s|Last updated on .* using magic ✨|Last updated on ${DATE} using magic ✨|g" README.md
 
       - name: Commit and Push changes
