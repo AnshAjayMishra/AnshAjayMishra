@@ -20,21 +20,15 @@ jobs:
 
       - name: Update README
         run: |
-          DATE=$(date +"%A, %-d %B %Y")
-          
-          # Add suffix like st, nd, rd, th
           DAY=$(date +"%-d")
-          if [ "$DAY" -eq 1 ] || [ "$DAY" -eq 21 ] || [ "$DAY" -eq 31 ]; then
-            SUFFIX="st"
-          elif [ "$DAY" -eq 2 ] || [ "$DAY" -eq 22 ]; then
-            SUFFIX="nd"
-          elif [ "$DAY" -eq 3 ] || [ "$DAY" -eq 23 ]; then
-            SUFFIX="rd"
-          else
-            SUFFIX="th"
-          fi
+          case "$DAY" in
+            1|21|31) SUFFIX="st" ;;
+            2|22)    SUFFIX="nd" ;;
+            3|23)    SUFFIX="rd" ;;
+            *)       SUFFIX="th" ;;
+          esac
           
-          DATE=$(date +"%A, %-d${SUFFIX} %B %Y")
+          DATE=$(date +"%A, ${DAY}${SUFFIX} %B %Y")
 
           echo "Updating README with date: ${DATE}"
 
@@ -49,5 +43,11 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add README.md
-          git commit -m "Update README last updated date"
-          git push
+
+          # Commit only if there are changes
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update README last updated date"
+            git push
+          fi
