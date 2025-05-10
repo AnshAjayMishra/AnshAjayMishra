@@ -340,14 +340,20 @@
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AnshAjayMishra&theme=midnight_purple" width="32.5%">
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AnshAjayMishra&theme=midnight_purple" width="32.5%">
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=AnshAjayMishra&theme=midnight_purple" width="32.5%">
-
-<details>
-  <summary>More stats</summary>
   
- <img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AnshAjayMishra&theme=midnight_purple">
+  <br>
+  
+  <img src="https://github-readme-stats.vercel.app/api?username=AnshAjayMishra&theme=midnight-purple&show_icons=true&hide_border=true&count_private=true" width="33%">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AnshAjayMishra&theme=midnight-purple&hide_border=true" width="35%">
 
-</details>
-  </div>
+  <br>
+
+  <details>
+    <summary>More stats</summary>
+    <img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AnshAjayMishra&theme=midnight_purple">
+  </details>
+</div>
+
    
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
