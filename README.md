@@ -341,12 +341,15 @@
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AnshAjayMishra&theme=midnight_purple" width="32.5%">
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=AnshAjayMishra&theme=midnight_purple" width="32.5%">
   
-  <br>
   
-  <img src="https://github-readme-stats.vercel.app/api?username=AnshAjayMishra&theme=midnight-purple&show_icons=true&hide_border=true&count_private=true" width="33%">
+   <details>
+    <summary>More stats</summary>
+    <img src="https://github-readme-stats.vercel.app/api?username=AnshAjayMishra&theme=midnight-purple&show_icons=true&hide_border=true&count_private=true" width="33%">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=AnshAjayMishra&theme=midnight-purple&hide_border=true" width="35%">
+  </details>
+ 
 
-  <br>
+  
 
   <details>
     <summary>More stats</summary>
