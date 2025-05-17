@@ -382,7 +382,7 @@
 
 <p align="center">
   <span style="background-color: #e1e4e8; padding: 6px 12px; border-radius: 6px; font-weight: bold;">
-   Last updated on Friday, 16th May 2025 using magic ✨
+   Last updated on Saturday, 17th May 2025 using magic ✨
   </span>
 </p>
 
