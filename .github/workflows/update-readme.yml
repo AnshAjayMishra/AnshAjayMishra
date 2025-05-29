@@ -3,7 +3,7 @@ name: Update README
 on:
   schedule:
     - cron: '0 0 * * *' # every day at midnight UTC
-  workflow_dispatch: # manual trigger too
+  workflow_dispatch:
 
 jobs:
   update-readme:
@@ -27,24 +27,26 @@ jobs:
             3|23)    SUFFIX="rd" ;;
             *)       SUFFIX="th" ;;
           esac
-          
+
           DATE=$(date +"%A, ${DAY}${SUFFIX} %B %Y")
 
           echo "Updating README with date: ${DATE}"
 
-          # Update the README file
+          # Add TWO lines to force 2 contributions
           sed -i "s|Last updated on .* using magic ✨|Last updated on ${DATE} using magic ✨|g" README.md
+          echo "<!-- updated ${DATE} -->" >> README.md
+          echo "<!-- second update ${DATE} -->" >> README.md
 
       - name: Check changes in README
         run: git diff README.md
 
       - name: Commit and Push changes
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git config --global user.name 'AnshAjayMishra'  # ✅ Use your GitHub username
+          git config --global user.email 'ajayanshmishra10@gmail.com'  # ✅ Use your verified GitHub email
+
           git add README.md
 
-          # Commit only if there are changes
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
