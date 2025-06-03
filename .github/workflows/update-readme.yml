@@ -8,6 +8,10 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        count: [1, 2, 3, 4]  # This will run the job 4 times
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -29,27 +33,26 @@ jobs:
           esac
 
           DATE=$(date +"%A, ${DAY}${SUFFIX} %B %Y")
+          RUN_ID=${{ matrix.count }}
 
-          echo "Updating README with date: ${DATE}"
+          echo "Updating README with date: ${DATE}, run #${RUN_ID}"
 
-          # Add TWO lines to force 2 contributions
+          # Update line
           sed -i "s|Last updated on .* using magic ✨|Last updated on ${DATE} using magic ✨|g" README.md
-          echo "<!-- updated ${DATE} -->" >> README.md
-          echo "<!-- second update ${DATE} -->" >> README.md
 
-      - name: Check changes in README
-        run: git diff README.md
+          # Add different lines for each run to force a unique commit
+          echo "<!-- update run ${RUN_ID} on ${DATE} -->" >> README.md
 
       - name: Commit and Push changes
         run: |
-          git config --global user.name 'AnshAjayMishra'  # ✅ Use your GitHub username
-          git config --global user.email 'ajayanshmishra10@gmail.com'  # ✅ Use your verified GitHub email
+          git config --global user.name 'AnshAjayMishra'
+          git config --global user.email 'ajayanshmishra10@gmail.com'
 
           git add README.md
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Update README last updated date"
+            git commit -m "Update README (run ${{ matrix.count }})"
             git push
           fi
