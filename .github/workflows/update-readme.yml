@@ -2,25 +2,15 @@ name: Update README
 
 on:
   schedule:
-    - cron: '0 0 * * *' # every day at midnight UTC
+    - cron: '0 0 * * *'  # every day at midnight UTC
   workflow_dispatch:
 
 jobs:
-  update-readme:
+  update-readme-1:
+    name: Update README Run 1
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        count: [1, 2, 3, 4]  # This will run the job 4 times
-
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - name: Print current directory
-        run: pwd
-
-      - name: Check README before update
-        run: cat README.md
+      - uses: actions/checkout@v4
 
       - name: Update README
         run: |
@@ -33,26 +23,67 @@ jobs:
           esac
 
           DATE=$(date +"%A, ${DAY}${SUFFIX} %B %Y")
-          RUN_ID=${{ matrix.count }}
-
-          echo "Updating README with date: ${DATE}, run #${RUN_ID}"
-
-          # Update line
+          echo "<!-- update run 1 on ${DATE} -->" >> README.md
           sed -i "s|Last updated on .* using magic ✨|Last updated on ${DATE} using magic ✨|g" README.md
 
-          # Add different lines for each run to force a unique commit
-          echo "<!-- update run ${RUN_ID} on ${DATE} -->" >> README.md
-
-      - name: Commit and Push changes
+      - name: Commit and Push
         run: |
           git config --global user.name 'AnshAjayMishra'
           git config --global user.email 'ajayanshmishra10@gmail.com'
-
           git add README.md
+          git commit -m "Update README (run 1)" || echo "No changes"
+          git push || echo "Push failed (likely due to conflict)"
 
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-          else
-            git commit -m "Update README (run ${{ matrix.count }})"
-            git push
-          fi
+  update-readme-2:
+    name: Update README Run 2
+    needs: update-readme-1
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update README
+        run: |
+          DATE=$(date +"%A, %-d %B %Y")
+          echo "<!-- update run 2 on ${DATE} -->" >> README.md
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'AnshAjayMishra'
+          git config --global user.email 'ajayanshmishra10@gmail.com'
+          git add README.md
+          git commit -m "Update README (run 2)" || echo "No changes"
+          git push || echo "Push failed (likely due to conflict)"
+
+  update-readme-3:
+    name: Update README Run 3
+    needs: update-readme-2
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update README
+        run: |
+          DATE=$(date +"%A, %-d %B %Y")
+          echo "<!-- update run 3 on ${DATE} -->" >> README.md
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'AnshAjayMishra'
+          git config --global user.email 'ajayanshmishra10@gmail.com'
+          git add README.md
+          git commit -m "Update README (run 3)" || echo "No changes"
+          git push || echo "Push failed (likely due to conflict)"
+
+  update-readme-4:
+    name: Update README Run 4
+    needs: update-readme-3
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update README
+        run: |
+          DATE=$(date +"%A, %-d %B %Y")
+          echo "<!-- update run 4 on ${DATE} -->" >> README.md
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'AnshAjayMishra'
+          git config --global user.email 'ajayanshmishra10@gmail.com'
+          git add README.md
+          git commit -m "Update README (run 4)" || echo "No changes"
+          git push || echo "Push failed (likely due to conflict)"
