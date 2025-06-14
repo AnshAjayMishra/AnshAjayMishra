@@ -1,52 +1,31 @@
-name: Update README
+name: Update Date in README
 
 on:
   schedule:
-    - cron: '30 18 * * *'  # 12:00 AM IST (6:30 PM UTC)
-  workflow_dispatch:
+    - cron: '30 6 * * *'  # Runs daily at 12:00 PM IST
+  workflow_dispatch:       # Optional manual trigger
 
 jobs:
-  update-readme:
-    name: Update README
+  update-date:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        run: [1, 2, 3, 4]
+
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      - name: Configure Git
+      - name: Set current date in IST
+        id: date
         run: |
-          git config --global user.name 'AnshAjayMishra'
-          git config --global user.email 'ajayanshmishra10@gmail.com'
-          git config pull.rebase true
+          echo "date=Last updated on $(TZ='Asia/Kolkata' date '+%A, %dth %B %Y') using magic ✨" >> "$GITHUB_ENV"
 
-      - name: Pull latest changes
-        run: git pull
-
-      - name: Update README
+      - name: Update README.md with new date
         run: |
-          # Get IST time (UTC+5:30)
-          IST_DATE=$(TZ="Asia/Kolkata" date +"%A, %-d")
-          DAY=$(TZ="Asia/Kolkata" date +"%-d")
-          
-          # Add ordinal suffix
-          case "$DAY" in
-            1|21|31) SUFFIX="st" ;;
-            2|22)    SUFFIX="nd" ;;
-            3|23)    SUFFIX="rd" ;;
-            *)       SUFFIX="th" ;;
-          esac
-
-          FULL_DATE=$(TZ="Asia/Kolkata" date +"%A, ${DAY}${SUFFIX} %B %Y")
-          
-          # Update README with run number
-          sed -i "s|Last updated on .* using magic ✨|Last updated on ${FULL_DATE} using magic ✨ (Run ${{ matrix.run }}/4)|" README.md
+          sed -i '/^Last updated on/c\'"$date" README.md
 
       - name: Commit and push changes
         run: |
+          git config --global user.name "anshajaymishra"
+          git config --global user.email "ajayanshmishra@gmail.com"
           git add README.md
-          git commit -m "📅 Daily update (Run ${{ matrix.run }}/4 at $(TZ="Asia/Kolkata" date +'%H:%M IST'))"
+          git commit -m "📅 Daily README update" || echo "No changes to commit"
           git push
