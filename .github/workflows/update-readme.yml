@@ -1,31 +1,55 @@
-name: Update Date in README
+name: Update README
 
 on:
   schedule:
-    - cron: '30 6 * * *'  # Runs daily at 12:00 PM IST
-  workflow_dispatch:       # Optional manual trigger
+    - cron: '30 18 * * *'  # Runs every day at 12:00 AM IST
+  workflow_dispatch:
 
 jobs:
-  update-date:
+  update-readme:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-      - name: Set current date in IST
-        id: date
-        run: |
-          echo "date=Last updated on $(TZ='Asia/Kolkata' date '+%A, %dth %B %Y') using magic ✨" >> "$GITHUB_ENV"
+      - name: Print current directory
+        run: pwd
 
-      - name: Update README.md with new date
-        run: |
-          sed -i '/^Last updated on/c\'"$date" README.md
+      - name: Check README before update
+        run: cat README.md
 
-      - name: Commit and push changes
+      - name: Update README
         run: |
-          git config --global user.name "anshajaymishra"
-          git config --global user.email "ajayanshmishra@gmail.com"
+          DAY=$(date +"%-d")
+          case "$DAY" in
+            1|21|31) SUFFIX="st" ;;
+            2|22)    SUFFIX="nd" ;;
+            3|23)    SUFFIX="rd" ;;
+            *)       SUFFIX="th" ;;
+          esac
+
+          DATE=$(date +"%A, ${DAY}${SUFFIX} %B %Y")
+
+          echo "Updating README with date: ${DATE}"
+
+          # Add TWO lines to force 2 contributions
+          sed -i "s|Last updated on .* using magic ✨|Last updated on ${DATE} using magic ✨|g" README.md
+          echo "<!-- updated ${DATE} -->" >> README.md
+          echo "<!-- second update ${DATE} -->" >> README.md
+
+      - name: Check changes in README
+        run: git diff README.md
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name 'AnshAjayMishra'  # ✅ Use your GitHub username
+          git config --global user.email 'ajayanshmishra10@gmail.com'  # ✅ Use your verified GitHub email
+
           git add README.md
-          git commit -m "📅 Daily README update" || echo "No changes to commit"
-          git push
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update README last updated date"
+            git push
+          fi
