@@ -382,7 +382,7 @@
 
 <p align="center">
   <span style="background-color: #e1e4e8; padding: 6px 12px; border-radius: 6px; font-weight: bold;">
-   Last updated on Sunday, 2nd November 2025 using magic ✨
+   Last updated on Monday, 3rd November 2025 using magic ✨
   </span>
 </p>
 
@@ -690,3 +690,5 @@
 <!-- second update Saturday, 1st November 2025 -->
 <!-- updated Sunday, 2nd November 2025 -->
 <!-- second update Sunday, 2nd November 2025 -->
+<!-- updated Monday, 3rd November 2025 -->
+<!-- second update Monday, 3rd November 2025 -->
