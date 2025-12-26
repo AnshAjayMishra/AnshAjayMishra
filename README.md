@@ -25,7 +25,7 @@
 
 
   
-- - 🌱  **Software Engineert @ GoalTech**
+-  🌱  **Software Engineer @ GoalTech**
     
 - 🪄 I’m currently in the **Final Year Of Engineering**
 
